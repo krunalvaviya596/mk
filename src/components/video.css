@@ -1,0 +1,26 @@
+.Container {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /* background-color: crimson; */
+    display: inline-block;
+    padding: 5px;
+}
+.Container.dark{
+    color: white
+}
+.Container.light{
+    color: black;
+}
+.close{
+    /* position: absolute; */
+    margin: 5px 5px 0 5px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+}
